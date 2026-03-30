@@ -1,0 +1,63 @@
+{
+  "configVersion": 1,
+  "timestamp": 1774879222836,
+  "index": "./index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "./index.html",
+        "./main-MDVZIH5V.js",
+        "./manifest.webmanifest",
+        "./pdf.worker.min.mjs",
+        "./styles-Q2JJHCXA.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "./logo.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "./index.html": "84591db3e4feb7dd7cbad8113822552659291631",
+    "./logo.svg": "c346fdecedcf5a810f9ade49277e891497e4b194",
+    "./main-MDVZIH5V.js": "22c4e5558f8911c27e0e0d2ce155b695d5193b7a",
+    "./manifest.webmanifest": "3a70d778cdccc235d0a8da9ef1caf0e5837111b6",
+    "./pdf.worker.min.mjs": "1e563fb9747b3c3b967748ec0dab0aa09cd2dd56",
+    "./styles-Q2JJHCXA.css": "823fe804e85d7f7980714241e6e925b062338b37"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
